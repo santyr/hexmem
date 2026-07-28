@@ -1,0 +1,60 @@
+# Dependencies and generated output
+node_modules/
+dist/
+coverage/
+.cache/
+.tmp/
+tmp/
+*.tsbuildinfo
+
+# Local runtime data and SQLite artifacts
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.journal
+*.wal
+*.shm
+*.backup
+*.bak
+*.snapshot
+snapshots/
+exports/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.token
+*.secret
+*.credentials
+
+# Logs and editor/system files
+*.log
+*.pid
+*.stackdump
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Archives and temporary release artifacts
+*.zip
+*.tar
+*.tar.*
+*.tgz
+*.gz
+*.bz2
+*.xz
+*.7z
